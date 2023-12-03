@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .navbar {
+      padding: 1rem 2.5rem;
+      height: 4rem;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 5fr;
+      position: fixed;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      background: maroon;
+    }
+    .cell1 a{
+      justify-items: center;
+      align-items: center;
+      font-size: 1.2rem;
+      text-decoration: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:white;
+    }
+    .cell2 a{
+      justify-items: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:white;
+    }.cell3 a{
+      justify-items: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:white;
+    }
+    .cell4{
+    text-align: right;
+    }
+    .cell4 a{
+     
+      text-decoration: none;
+      font-size: 1.2rem;
+    
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:white;
+     
+    }
+    .lo{
+    color: maroon;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    }
+    .po{
+      margin-top: 4rem;
+     
+    }
+    
+    img{
+      max-width: 100%;
+    }
+    .content{
+    display:grid;
+    margin:0px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    
+    }
+    .grid2{
+      margin-top: 40px;
+      display:grid;
+    grid-template-areas: "a b"
+                        "a c";
+                        column-gap:30px;
+    }
+    .cella{
+    grid-area:a ;
+    }
+    .cellb{
+    grid-area:b;
+    }
+    .cellc{
+      grid-area:c;
+      }
+      .im4{
+        padding: 40px;
+      }
+      .ppo{
+        margin-top: 4rem;
+        font-size:1.8rem;
+        text-align: center;
+        color:maroon;
+       
+      }
+      .grid3{
+    display: grid;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 70px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 10px;
+      }
+      .a1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgba(183, 177, 177, 1);
+      ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+      }
+     .f1{
+        width: 100%;
+        border-width: 1px;
+        border-image: linear-gradient(rgba(146, 139, 139, 1),
+        rgba(146, 139, 139, 0))1;
+        height: 3rem;
+        padding: 10px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      .f2{
+        width: 400px;
+        border-width: 1px;
+        border-image: linear-gradient(rgba(146, 139, 139, 1),
+        rgba(146, 139, 139, 0))1;
+        height: 3rem;
+        padding: 10px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      .grid4{
+    display:grid;
+    justify-items: center;
+    padding-top: 70px;
+   grid-template-rows: 1fr 1fr;
+   row-gap: 10px;
+      }
+      .ftext{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5rem;
+      }
+      .nat{
+        margin:50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 50px;
+      }
+      .feat{
+        display:grid;
+        margin-left:80px;
+        margin-right: 80px;
+        margin-top: 50px;
+        height: 50px;
+       justify-items: center;
+       align-content: center;
+        border: 1px solid rgba(183, 177, 177, 1);
+        border-radius: 25px;
+        grid-template-columns: 1fr 2fr 2fr 1fr 2fr;
+        
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+  
+      .f24{
+        padding:5px;
+      }
+     .btn{
+       background-color: black;
+       color:  rgba(183, 177, 177, 1);
+       padding:3px;
+       border-radius: 25px;
+     }
+     .gridtemp{
+       display:grid;
+       margin:70px;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 50px; 
+      text-align: center;
+     }
